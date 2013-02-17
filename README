@@ -1,0 +1,4 @@
+RECIPES
+["controllers", "core", "email", "extras", "frontend", "gems", "git", "init", "models", "prelaunch", "railsapps", "readme", "routes", "saas", "samssf_gems", "setup", "testing", "views"]
+PREFERENCES
+{:dev_webserver=>"thin", :prod_webserver=>nil, :database=>"mysql", :templates=>"haml", :unit_test=>"rspec", :integration=>"rspec-capybara", :fixtures=>"factory_girl", :frontend=>"bootstrap", :bootstrap=>"sass", :form_builder=>"simple_form", :email=>"smtp", :authentication=>"devise", :devise_modules=>"default", :authorization=>"cancan", :git=>true, :railsapps=>"none", :starter_app=>"admin_app"}
