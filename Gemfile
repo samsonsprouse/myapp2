@@ -52,3 +52,20 @@ gem "rolify", ">= 3.2.0"
 gem "simple_form", ">= 2.0.4"
 gem "nokogiri"
 gem "client_side_validations"
+gem "quiet_assets", ">= 1.0.1", :group => :development
+gem "figaro", ">= 0.5.3"
+gem "better_errors", ">= 0.6.0", :group => :development
+gem "binding_of_caller", ">= 0.6.9", :group => :development
+gem "hub", ">= 1.10.2", :require => nil, :group => [:development]
+gem "spork", :group => [:development, :test]
+gem "guard-rspec", :group => :development
+gem "guard-spork", :group => :development
+gem "guard-livereload", :group => :development
+gem "rb-fsevent", :group => [:development, :test], :require => false
+gem "brakeman", :group => [:development, :test]
+gem "awesome_print", :group => [:development, :test]
+gem "mailcatcher", :group => [:development, :test]
+gem "shoulda-matchers", :group => [:development, :test]
+gem "simplecov", :group => [:development, :test]
+gem "simplecov-rcov", :group => [:development, :test]
+gem "growl", :group => :test
